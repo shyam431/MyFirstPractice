@@ -22,6 +22,7 @@ public class TestDatabase {
 		//Execute
 		ResultSet result= statement.executeQuery("Select * from Student");
 		
+		//Fetching data
 		while(result.next()) {
 			int id = result.getInt("id");
 			String name = result.getString("name");

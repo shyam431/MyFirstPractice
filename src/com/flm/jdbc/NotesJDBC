@@ -1,0 +1,35 @@
+DDL (Data Definition Language): Defines database structure (CREATE, ALTER, DROP).
+DML (Data Manipulation Language): Manipulates data (SELECT, INSERT, UPDATE, DELETE).
+TCL (Transaction Control Language): Manages transactions (COMMIT, ROLLBACK).
+DCL (Data Control Language): Controls user access (GRANT, REVOKE).
+
+
+
+JDBC Steps
+	1) Load the Driver class
+		com.mysql.cj.jdbc.Driver
+		
+	2) Create database connection
+		database url :: jdbc:mysql://localhost:3306/flmtest
+		user : root
+		password : root
+		
+	3) Create a statement
+		
+	4) Execute it and get the results
+		
+		
+We use couple of classes and interfaces here...
+
+they all are come from java.sql package
+
+Tasks ::
+	1. Created Student table connection,
+	2. Create Employee table and Connect
+
+
+We have 3 types of statements
+	1. Statement
+	2. PreparedStatement
+	3. Callable Statment
+	

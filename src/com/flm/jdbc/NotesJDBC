@@ -3,6 +3,7 @@ DML (Data Manipulation Language): Manipulates data (SELECT, INSERT, UPDATE, DELE
 TCL (Transaction Control Language): Manages transactions (COMMIT, ROLLBACK).
 DCL (Data Control Language): Controls user access (GRANT, REVOKE).
 
+
 JDBC Steps
 	1) Load the Driver class
 		com.mysql.cj.jdbc.Driver
